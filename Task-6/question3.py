@@ -12,7 +12,8 @@ with open('about.txt','r') as f:
         if len(words[i]) >= 6:                        
             print(words[i])
 
-''' we can also usefor i in range(0, len(words)):
+''' we can also use
+for i in range(0, len(words)):
     occur = 1; 
     for j in range(i+1, len(words)):
         if(words[i] == words[j]): 
